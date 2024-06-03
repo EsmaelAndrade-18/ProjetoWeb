@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f5f5fa;
+    font-family: "trebuchet MS", Helvetica, sans-serif;
+	text-align: justify;
+	color: rgb(69, 65, 65);
+}
+
+header{
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #d8d8d8;
+    position: fixed;
+    top: 0;
+    height: 60px;
+}
+
+#menu{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    height: 40px;
+}
+
+#centro-footer{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+footer{
+    width: 100%;
+    background: rgb(102, 99, 99);
+    border-top: 1px solid #d8d8d8;
+    height: 70px;
+    margin-top: 100px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.Amarelo{
+    color:rgb(233, 233, 50);
+}
+
+.nav-link{
+    width: fit-content;
+    float: right;
+    margin-bottom: 10px;
+    padding: 10px 25px;
+    text-align: center;
+    background: rgb(243, 243, 111);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.nav-link:link{
+    color: white;
+    background: rgb(243, 243, 111);
+}
+
+.nav-link:visited{
+    color: white;
+    background: rgb(243, 243, 111);
+}
+
+.nav-link:hover{
+    color: #d8d8d8;
+    background: rgb(156, 156, 61);
+}
+
+.nav-link:active{
+    color: #d8d8d8;
+}
+
+#area-principal{
+    width: 70%;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    border-radius: 5px;
+    min-height: 550px;
+}
+
+li{
+    margin: 5px;
+    margin-left: 15%;
+}
+
+.imge{
+    width: 100%;
+}
+
+#logo{
+    width: 100px;
+    float: left;
+    text-shadow: #bba9a9 1px 1px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#item1{
+    width: 10%;
+}
+
+#img-front{
+    width: 89%;
+    margin-left: 1%;
+}
+
+p{
+    width: 89%;
+    margin-left: 11%;
+}
+
+.img-item1{
+    margin-top: 2%;
+    float: left;
+    width: 100%;
+}
+
+#h1{
+    width: 89%;
+    margin-left: 11%;
+}
+
+.p1{
+    float: left;
+    width: 230px;
+}
+
+#area-secundaria{
+    border-bottom: 1px solid #d8d8d8;
+    margin: 90px auto 0 auto;
+    width: 70%;
+}
+
+#inf{
+    width: 100%;
+    margin: 0 auto;
+    text-align: right;
+    color: #aca9a9;
+}
+
+#p2{
+    margin-bottom: 10px;
+}
+
+/* cadastro e login */
+
+form{
+    border: 2px solid gray; 
+    padding: 30px;
+    background-color: var(--cabecalho);
+    border-radius: 5px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttom{
+    width: 150px;
+}
+
+
+
+
+

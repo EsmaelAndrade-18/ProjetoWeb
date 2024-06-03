@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#modo{
+    position: absolute;
+    padding: 15px;
+    border-radius: 50%;
+    right: 15px;
+    top: 15px;
+    transition: 0.5s;
+}
+
+.escuro{
+    background: rgb(2, 13, 55);
+    color: white;
+}
+
+.claro{
+    background: white !important;
+    color: black !important;
+}
+
+[modo="claro"]{
+    --fundo: #f5f5fa;
+    --cabecalho: white;
+    --texto: rgb(69, 65, 65);
+}
+
+[modo="escuro"]{
+    --fundo: #232323;
+    --cabecalho: rgb(26, 43, 51);
+    --texto: rgb(229, 222, 222);
+}
+
+body{
+    background: var(--fundo);
+    font-family: "trebuchet MS", Helvetica, sans-serif;
+	text-align: justify;
+	color: var(--texto);
+}
+
+header{
+    width: 100%;
+    background: var(--cabecalho);
+    border-bottom: 1px solid #d8d8d8;
+    position: fixed;
+    top: 0;
+    padding: 8px 0;
+    transition: 0.5s;
+}
+
+.evento_header_scroll{
+    padding: 0 !important;
+}
+
+#menu{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    height: 40px;
+}
+
+#centro-footer{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+footer{
+    width: 100%;
+    background: rgb(102, 99, 99);
+    border-top: 1px solid #d8d8d8;
+    height: 79px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.Amarelo{
+    color:rgb(233, 233, 50);
+}
+
+.nav-link{
+    width: 50px;
+    float: right;
+    margin-bottom: 10px;
+    padding: 10px 25px;
+    text-align: center;
+    background: rgb(243, 243, 111);
+    border-radius: 5px;
+}
+
+.nav-link:link{
+    color:  white;
+}
+
+.nav-link:visited{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #d8d8d8;
+    background: rgb(156, 156, 61);
+}
+
+.nav-link:active{
+    color: #d8d8d8;
+}
+
+#area-principal{
+    width: 70%;
+    padding: 10px;
+    margin: 70px auto 10px auto;
+    border-radius: 5px;
+}
+
+li{
+    margin: 5px;
+    margin-left: 13%;
+}
+
+.imge{
+    width: 100%;
+}
+
+#logo{
+    width: 100px;
+    float: left;
+    text-shadow: #bba9a9 1px 1px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.p1{
+    float: left;
+    width: 230px;
+}
+
+
+
+
+
